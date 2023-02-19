@@ -1,0 +1,21 @@
+{
+    "name": "ajinkya-cli",
+    "description": "a cli tool just to introduce Ajinkya.",
+    "repository": {
+        "url": "github.com/steelx/ajinkya"
+    },
+    "keywords": ["ajinkya borade", "Ajinkya", "software developer", "nodejs"],
+    "author": {
+        "name": "Ajinkya Borade",
+        "email": "me@pm.me",
+        "url": "https://twitter.com/ajinkyax"
+    },
+    "license": "MIT",
+    "version": "0.0.1",
+    "bin": {
+        "ajinkya": "index.js"
+    },
+    "dependencies": {
+        "cli-welcome": "^2.2.2"
+    }
+}

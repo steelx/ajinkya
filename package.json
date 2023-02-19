@@ -4,7 +4,12 @@
     "repository": {
         "url": "github.com/steelx/ajinkya"
     },
-    "keywords": ["ajinkya borade", "Ajinkya", "software developer", "nodejs"],
+    "keywords": [
+        "ajinkya borade",
+        "Ajinkya",
+        "software developer",
+        "nodejs"
+    ],
     "author": {
         "name": "Ajinkya Borade",
         "email": "me@pm.me",
@@ -15,7 +20,9 @@
     "bin": {
         "ajinkya": "index.js"
     },
+    "type": "module",
     "dependencies": {
-        "cli-welcome": "^2.2.2"
+        "cli-welcome": "^2.2.2",
+        "chalk": "^5.2.0"
     }
 }
